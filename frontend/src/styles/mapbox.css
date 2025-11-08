@@ -1,0 +1,35 @@
+/* Mapbox Custom Styles */
+.mapboxgl-ctrl-group {
+  background: rgba(0, 0, 0, 0.8) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 8px !important;
+}
+
+.mapboxgl-ctrl-group button {
+  background: transparent !important;
+  color: white !important;
+}
+
+.mapboxgl-ctrl-group button:hover {
+  background: rgba(0, 212, 255, 0.2) !important;
+}
+
+.mapboxgl-popup-content {
+  background: rgba(0, 0, 0, 0.9) !important;
+  backdrop-filter: blur(10px);
+  color: white !important;
+  border-radius: 12px !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1rem !important;
+}
+
+.mapboxgl-popup-close-button {
+  color: white !important;
+  font-size: 1.5rem !important;
+}
+
+.mapboxgl-marker {
+  cursor: pointer;
+}
+
